@@ -28,7 +28,7 @@ jobs:
       - name: Convert notebooks
         run: |
           mkdir -p docs
-          jupyter nbconvert --to html notebooks/*.ipynb --output-dir docs
+          jupyter nbconvert --to html rp_analysis.ipynb --output-dir docs
 
       # commit HTML to repo
       - name: Commit converted HTML
