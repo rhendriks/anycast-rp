@@ -3,7 +3,7 @@
 
 [This repository](https://github.com/rhendriks/anycast-rp) contains the code and data for the [CNSM'25 paper]() "Too Remote to Be Local: Latency Inflation in Anycast due to Remote Peering".
 
-You can view the full notebook output [here](html/analysis.html).
+You can view the full notebook output [here](docs/analysis.html).
 
 
 # Code Contributors
