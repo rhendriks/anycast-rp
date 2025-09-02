@@ -32,7 +32,6 @@ jobs:
 
       - name: Convert notebook to HTML
         run: |
-          mkdir -p docs
           jupyter nbconvert --to html rp_analysis.ipynb --output index.html
 
       - name: Setup Pages
