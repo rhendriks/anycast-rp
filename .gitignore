@@ -1,0 +1,10 @@
+milestone.csv.gz
+.idea/
+# ignore all files in ./parquets
+parquets/*
+# duckdb file
+data/ip_locations_ipv4.duckdb
+# IPInfo data
+data/2025-03-31_standard_location.json.gz
+# hoiho
+./data/hoiho/2024-08.midar-iff.geo-re.jsonl.gz
