@@ -9975,7 +9975,7 @@ locations available 18962804
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [54]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython2"><pre><span></span><span class="c1"># create geo dataframe for our coordinates</span>
@@ -9991,12 +9991,12 @@ locations available 18962804
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=de04011dc55b747d">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=de04011dc55b747d">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [55]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython2"><pre><span></span><span class="c1"># perform lookup (converting coordinates to country)</span>
@@ -10014,12 +10014,189 @@ locations available 18962804
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=a6acc4d5bd2d25e5">
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[55]:</div>
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>tx_hostname</th>
+<th>dst</th>
+<th>hop_addr</th>
+<th>hop_probe_ttl</th>
+<th>hop_rtt</th>
+<th>ip4_address</th>
+<th>hop_name</th>
+<th>vp_lat</th>
+<th>vp_lon</th>
+<th>tx_city</th>
+<th>...</th>
+<th>hop_is_bogon</th>
+<th>hop_city</th>
+<th>hop_lat</th>
+<th>hop_lon</th>
+<th>geometry</th>
+<th>index_right</th>
+<th>ISO_A3</th>
+<th>ISO-alpha3 Code</th>
+<th>Region Name</th>
+<th>Sub-region Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>aep3-ar</td>
+<td>100.0.0.1</td>
+<td>192.168.1.1</td>
+<td>1</td>
+<td>1.227</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>-34.6</td>
+<td>-58.38</td>
+<td>Buenos Aires</td>
+<td>...</td>
+<td>True</td>
+<td>&lt;NA&gt;</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>POINT EMPTY</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+</tr>
+<tr>
+<th>1</th>
+<td>aep3-ar</td>
+<td>100.0.0.1</td>
+<td>192.168.0.1</td>
+<td>2</td>
+<td>1.485</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>-34.6</td>
+<td>-58.38</td>
+<td>Buenos Aires</td>
+<td>...</td>
+<td>True</td>
+<td>&lt;NA&gt;</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>POINT EMPTY</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+</tr>
+<tr>
+<th>2</th>
+<td>aep3-ar</td>
+<td>100.0.0.1</td>
+<td>181.96.62.70</td>
+<td>7</td>
+<td>12.157</td>
+<td>181.96.62.70</td>
+<td>host70.181-96-62.telecom.net.ar</td>
+<td>-34.6</td>
+<td>-58.38</td>
+<td>Buenos Aires</td>
+<td>...</td>
+<td>False</td>
+<td>buenos aires</td>
+<td>-34.613152</td>
+<td>-58.377232</td>
+<td>POINT (-58.37723 -34.61315)</td>
+<td>9.0</td>
+<td>ARG</td>
+<td>ARG</td>
+<td>Americas</td>
+<td>Latin America and the Caribbean</td>
+</tr>
+<tr>
+<th>3</th>
+<td>aep3-ar</td>
+<td>100.0.0.1</td>
+<td>195.22.220.58</td>
+<td>8</td>
+<td>10.412</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>-34.6</td>
+<td>-58.38</td>
+<td>Buenos Aires</td>
+<td>...</td>
+<td>False</td>
+<td>buenos aires</td>
+<td>-34.613152</td>
+<td>-58.377232</td>
+<td>POINT (-58.37723 -34.61315)</td>
+<td>9.0</td>
+<td>ARG</td>
+<td>ARG</td>
+<td>Americas</td>
+<td>Latin America and the Caribbean</td>
+</tr>
+<tr>
+<th>4</th>
+<td>aep3-ar</td>
+<td>100.0.0.1</td>
+<td>89.221.41.221</td>
+<td>9</td>
+<td>147.013</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>-34.6</td>
+<td>-58.38</td>
+<td>Buenos Aires</td>
+<td>...</td>
+<td>False</td>
+<td>miami</td>
+<td>25.774269</td>
+<td>-80.193657</td>
+<td>POINT (-80.19366 25.77427)</td>
+<td>4.0</td>
+<td>USA</td>
+<td>USA</td>
+<td>Americas</td>
+<td>Northern America</td>
+</tr>
+</tbody>
+</table>
+<p>5 rows × 25 columns</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=a6acc4d5bd2d25e5">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [56]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython2"><pre><span></span><span class="c1"># rename results</span>
@@ -10035,6 +10212,183 @@ locations available 18962804
 
 <span class="n">traceroutes_df</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[56]:</div>
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>tx_hostname</th>
+<th>dst</th>
+<th>hop_addr</th>
+<th>hop_probe_ttl</th>
+<th>hop_rtt</th>
+<th>ip4_address</th>
+<th>hop_name</th>
+<th>vp_lat</th>
+<th>vp_lon</th>
+<th>tx_city</th>
+<th>...</th>
+<th>pop_rtt</th>
+<th>ark_to_hop</th>
+<th>ark_to_pop</th>
+<th>hop_is_bogon</th>
+<th>hop_city</th>
+<th>hop_lat</th>
+<th>hop_lon</th>
+<th>hop_country_code</th>
+<th>hop_region</th>
+<th>hop_sub_region</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>aep3-ar</td>
+<td>100.0.0.1</td>
+<td>192.168.1.1</td>
+<td>1</td>
+<td>1.227</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>-34.6</td>
+<td>-58.38</td>
+<td>Buenos Aires</td>
+<td>...</td>
+<td>175.665</td>
+<td>125.373137</td>
+<td>17949.203027</td>
+<td>True</td>
+<td>&lt;NA&gt;</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+</tr>
+<tr>
+<th>1</th>
+<td>aep3-ar</td>
+<td>100.0.0.1</td>
+<td>192.168.0.1</td>
+<td>2</td>
+<td>1.485</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>-34.6</td>
+<td>-58.38</td>
+<td>Buenos Aires</td>
+<td>...</td>
+<td>175.665</td>
+<td>151.735215</td>
+<td>17949.203027</td>
+<td>True</td>
+<td>&lt;NA&gt;</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+</tr>
+<tr>
+<th>2</th>
+<td>aep3-ar</td>
+<td>100.0.0.1</td>
+<td>181.96.62.70</td>
+<td>7</td>
+<td>12.157</td>
+<td>181.96.62.70</td>
+<td>host70.181-96-62.telecom.net.ar</td>
+<td>-34.6</td>
+<td>-58.38</td>
+<td>Buenos Aires</td>
+<td>...</td>
+<td>175.665</td>
+<td>1242.185189</td>
+<td>17949.203027</td>
+<td>False</td>
+<td>buenos aires</td>
+<td>-34.613152</td>
+<td>-58.377232</td>
+<td>ARG</td>
+<td>Americas</td>
+<td>Latin America and the Caribbean</td>
+</tr>
+<tr>
+<th>3</th>
+<td>aep3-ar</td>
+<td>100.0.0.1</td>
+<td>195.22.220.58</td>
+<td>8</td>
+<td>10.412</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>-34.6</td>
+<td>-58.38</td>
+<td>Buenos Aires</td>
+<td>...</td>
+<td>175.665</td>
+<td>1063.883539</td>
+<td>17949.203027</td>
+<td>False</td>
+<td>buenos aires</td>
+<td>-34.613152</td>
+<td>-58.377232</td>
+<td>ARG</td>
+<td>Americas</td>
+<td>Latin America and the Caribbean</td>
+</tr>
+<tr>
+<th>4</th>
+<td>aep3-ar</td>
+<td>100.0.0.1</td>
+<td>89.221.41.221</td>
+<td>9</td>
+<td>147.013</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>-34.6</td>
+<td>-58.38</td>
+<td>Buenos Aires</td>
+<td>...</td>
+<td>175.665</td>
+<td>15021.581900</td>
+<td>17949.203027</td>
+<td>False</td>
+<td>miami</td>
+<td>25.774269</td>
+<td>-80.193657</td>
+<td>USA</td>
+<td>Americas</td>
+<td>Northern America</td>
+</tr>
+</tbody>
+</table>
+<p>5 rows × 22 columns</p>
+</div>
 </div>
 </div>
 </div>
@@ -10055,7 +10409,7 @@ locations available 18962804
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [57]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython2"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">find_day_url_v4</span><span class="p">():</span>
@@ -10091,7 +10445,7 @@ locations available 18962804
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [58]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython2"><pre><span></span><span class="c1"># adds ASN and BGP prefix from CAIDA data to a csv with ipaddresses</span>
@@ -10164,7 +10518,7 @@ locations available 18962804
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [59]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython2"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">lookup_asn</span><span class="p">(</span><span class="n">ip</span><span class="p">,</span> <span class="n">lookup_radix4</span><span class="p">):</span>
@@ -10182,12 +10536,12 @@ locations available 18962804
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=b18a454772298e78">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=b18a454772298e78">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [62]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython2"><pre><span></span><span class="c1"># add missing ASNs using peeringdb</span>
@@ -10211,6 +10565,74 @@ locations available 18962804
 
 <span class="n">asn_ixp</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[62]:</div>
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>asn</th>
+<th>pop</th>
+<th>addr</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>8075</td>
+<td>Equinix New York</td>
+<td>198.32.118.91</td>
+</tr>
+<tr>
+<th>1</th>
+<td>20940</td>
+<td>SIX Seattle: MTU 1500</td>
+<td>206.81.80.113</td>
+</tr>
+<tr>
+<th>2</th>
+<td>20940</td>
+<td>MegaIX Munich</td>
+<td>194.59.190.59</td>
+</tr>
+<tr>
+<th>3</th>
+<td>31800</td>
+<td>NL-ix: Main</td>
+<td>193.239.116.162</td>
+</tr>
+<tr>
+<th>4</th>
+<td>31800</td>
+<td>Equinix Dallas</td>
+<td>206.223.118.88</td>
+</tr>
+</tbody>
+</table>
+</div>
 </div>
 </div>
 </div>
