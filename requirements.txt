@@ -1,0 +1,10 @@
+pandas
+numpy
+duckdb
+requests
+beautifulsoup4
+py-radix
+scikit-learn
+matplotlib
+geopandas
+shapely
