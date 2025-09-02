@@ -33,7 +33,7 @@ jobs:
       - name: Convert notebook to HTML
         run: |
           mkdir -p docs
-          jupyter nbconvert --to html rp_analysis.ipynb --output-dir docs --output rp_analysis.html
+          jupyter nbconvert --to html rp_analysis.ipynb --output index.html
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
@@ -42,7 +42,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # upload docs
-          path: './docs'
+          path: '.'
 
   deploy:
     # dependency on build step
