@@ -11,3 +11,20 @@ You can view the full notebook including output [here](https://rhendriks.github.
 * [Remi Hendriks](github.com/rhendriks)
 * [Stefano Servillo](https://github.com/Stefano-25)
 * [Savvas Kastanakis](https://github.com/kastanakis)
+
+## Citation
+This work was a contribution of our CNSM'25 paper.
+Please use the following .bibtex when using this code.
+```
+@INPROCEEDINGS{11297415,
+  author={Hendriks, Remi and Servillo, Stefano and Cuomo, Francesca and Hesselman, Cristian and Rijswijk-Deij, Roland van and Kastanakis, Savvas},
+  booktitle={2025 21st International Conference on Network and Service Management (CNSM)}, 
+  title={Too Remote to Be Local: Latency Inflation in Anycast due to Remote Peering}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-7},
+  keywords={Costs;Systematics;Geology;Redundancy;Standardization;Tagging;Metadata;Routing;Servers;Lenses},
+  doi={10.23919/CNSM67658.2025.11297415}
+}
+```
