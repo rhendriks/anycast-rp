@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "Too Remote to Be Local: Latency Inflation in Anycast due to Remote Peering"
+authors:
+  - family-names: Hendriks
+    given-names: Remi
+  - family-names: Servillo
+    given-names: Stefano
+  - family-names: Cuomo
+    given-names: Francesca
+  - family-names: Hesselman
+    given-names: Cristian
+  - family-names: van Rijswijk-Deij
+    given-names: Roland
+  - family-names: Kastanakis
+    given-names: Savvas
+preferred-citation:
+  type: conference-paper
+  title: "Too Remote to Be Local: Latency Inflation in Anycast due to Remote Peering"
+  authors:
+    - family-names: Hendriks
+      given-names: Remi
+    - family-names: Servillo
+      given-names: Stefano
+    - family-names: Cuomo
+      given-names: Francesca
+    - family-names: Hesselman
+      given-names: Cristian
+    - family-names: van Rijswijk-Deij
+      given-names: Roland
+    - family-names: Kastanakis
+      given-names: Savvas
+  booktitle: "2025 21st International Conference on Network and Service Management (CNSM)"
+  year: 2025
+  start: 1
+  end: 7
+  doi: 10.23919/CNSM67658.2025.11297415
