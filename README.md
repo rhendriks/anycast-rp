@@ -1,5 +1,6 @@
 <h1 align="center">Too Remote to Be Local</h1>
 <h3 align="center"><em>Latency Inflation in Anycast due to Remote Peering</em></h3>
+
 [![DOI](https://img.shields.io/badge/DOI-10.23919%2FCNSM67658.2025.11297415-blue.svg)](https://doi.org/10.23919/CNSM67658.2025.11297415)
 
 [This repository](https://github.com/rhendriks/anycast-rp) contains the code and data for the [CNSM'25 paper]() "Too Remote to Be Local: Latency Inflation in Anycast due to Remote Peering".
